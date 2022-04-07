@@ -12,8 +12,8 @@ import time
 # 付费的有道翻译API，稳定性可靠性佳 #
 class YoudaoAPI:
     __YOUDAO_URL = 'https://openapi.youdao.com/api'
-    __APP_KEY = '22cb2d01411ab56d'  # 自己账号的ID
-    __APP_SECRET = 'Rbo57nVgiAFxOPNsXkJ0HJAKdnWJq1gm' # 自己账号的秘钥
+    __APP_KEY = ''  # 自己账号的ID
+    __APP_SECRET = '' # 自己账号的秘钥
 
     def __encrypt(self, signStr):
         hash_algorithm = hashlib.sha256()
